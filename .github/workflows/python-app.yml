@@ -1,5 +1,9 @@
 name: Daily Angel One Token Updater
 
+# 🔴 এই অংশটাই আগে missing ছিল
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '30 3 * * *'   # প্রতিদিন সকাল 9:00 IST
